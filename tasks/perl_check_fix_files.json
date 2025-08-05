@@ -1,0 +1,16 @@
+{
+  "description": "Check and fix file permissions and content compliance",
+  "input_method": "stdin",
+  "parameters": {
+    "files": {
+      "description": "Array of file configurations to check/fix",
+      "type": "Array",
+      "default": []
+    },
+    "check_only": {
+      "description": "Only check compliance without fixing issues",
+      "type": "Boolean",
+      "default": false
+    }
+  }
+}

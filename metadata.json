@@ -1,0 +1,8 @@
+{
+  "name": "bolt-stdlib",
+  "version": "0.0.1",
+  "author": "Mark Ottaway",
+  "summary": "Custom Bolt module with useful functions",
+  "license": "Apache-2.0",
+  "dependencies": []
+}
