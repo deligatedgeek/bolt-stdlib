@@ -1,6 +1,6 @@
 {
   "name": "bolt-stdlib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Mark Ottaway",
   "summary": "Custom Bolt module with useful functions",
   "source": "https://github.com/deligatedgeek/bolt-stdlib",

@@ -1,4 +1,4 @@
-plan stdio::file(
+plan stdlib::file(
   TargetSpec $targets,
   Array[Hash] $files = [],
   Boolean $check_only = false,
@@ -15,7 +15,7 @@ plan stdio::file(
     fail_plan("Install of jq failed with status: ${status}  version: ${version}")
   }
   # Run the compliance check/fix task
-  $results = run_task('stdio::check_fix_files', $targets, {
+  $results = run_task('stdlib::check_fix_files', $targets, {
       'files' => $files,
       'check_only' => $check_only
   })
